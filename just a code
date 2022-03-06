@@ -1,1 +1,16 @@
+Calcular IVA en Python idk
+print("Escriba su nombre")
+nombre = (input)()
 
+print("Cuanto es el total de su compra")
+totalCompra = (input)()
+totalCompra = float(totalCompra)
+
+IVA = totalCompra * 0.16
+cuentaTotal = totalCompra + IVA
+
+print("\nSupermercado El Baratón")
+print("\nCliente       :",nombre)
+print("\nTotal compra  : ",totalCompra)
+print("\nIGV 15%       :", IVA)
+print("\nTotal a pagar :", cuentaTotal)
